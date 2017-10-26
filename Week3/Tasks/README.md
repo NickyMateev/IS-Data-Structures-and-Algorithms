@@ -50,3 +50,9 @@ int pairsWithSumXNaive() {
     return ans;
 }
 ```
+
+2)
+
+![task-diagram][diagram]
+
+[diagram]: ../images/onlineShope.JPG

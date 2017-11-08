@@ -63,5 +63,7 @@ A real-world example of queue can be a single-lane one-way road, where the vehic
 ## Links:
 
 [Data Structure and Algorithms - Queue](https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm)
+
 [Queue Data Structure](http://www.geeksforgeeks.org/queue-data-structure/)
+
 [std::queue](http://www.cplusplus.com/reference/queue/queue/)

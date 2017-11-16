@@ -8,7 +8,7 @@ Linked List is a sequence of links which contains items. Each link contains a co
 
 ### Represenation of linked list:
 
-![linked_list](/images/linked_list.jpg)
+![linked_list](images/linked_list.jpg)
 
 ## Basic operations on lists
 
@@ -24,32 +24,32 @@ Linked List is a sequence of links which contains items. Each link contains a co
 
 ##### Step 1:
 
-![linked_list_insertion](/images/linked_list_insertion1.jpg)
+![linked_list_insertion](images/linked_list_insertion1.jpg)
 
 ##### Step 2:
 
-![linked_list_insertion](/images/linked_list_insertion2.jpg)
+![linked_list_insertion](images/linked_list_insertion2.jpg)
 
 ##### Step 3:
 
-![linked_list_insertion](/images/linked_list_insertion3.jpg)
+![linked_list_insertion](images/linked_list_insertion3.jpg)
 
 ##### Step 4:
 
-![linked_list_insertion](/images/linked_list_insertion4.jpg)
+![linked_list_insertion](images/linked_list_insertion4.jpg)
 
 ### Deletion:
 
-![linked_list_insertion](/images/linked_list_deletion1.jpg)
+![linked_list_insertion](images/linked_list_deletion1.jpg)
 
 ##### Step 2:
 
-![linked_list_insertion](/images/linked_list_deletion2.jpg)
+![linked_list_insertion](images/linked_list_deletion2.jpg)
 
 ##### Step 3:
 
-![linked_list_insertion](/images/linked_list_deletion3.jpg)
+![linked_list_insertion](images/linked_list_deletion3.jpg)
 
 ##### Step 4:
 
-![linked_list_insertion](/images/linked_list_deletion4.jpg)
+![linked_list_insertion](images/linked_list_deletion4.jpg)

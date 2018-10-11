@@ -136,7 +136,9 @@ What's the complexity of the following algorithm:
 ```csharp
 int Fibonacci(int number)
 {
-    if (number <= 1) return number;
+    if (number <= 1) {
+        return number;
+    }
 
     return Fibonacci(number - 2) + Fibonacci(number - 1);
 }
@@ -156,3 +158,61 @@ int pairsWithSumXNaive() {
     return ans;
 }
 ```
+
+### Task 11:
+
+What's the complexity of the following algorithm:
+
+```c++
+void func(int* a, int n)
+{
+    int i, t, s = 1;
+    while (s)
+    {
+        s = 0;
+        for (i = 1; i < n; i++)
+	      {
+            if (a[i] < a[i - 1])
+            {
+                t = a[i];
+                a[i] = a[i - 1];
+                a[i - 1] = t;
+                s = 1;
+            }
+        }
+    }
+}
+
+```
+
+> Can the same result be achieved using a different more efficient algorithm? Propose different solutions.
+
+
+### Task 12:
+
+What's the complexity of the following algorithm:
+
+```c++
+bool func(int *arr, int n, int elem)
+{
+	  for (i = 0; i < n; i++)
+	  {
+           if (arr[i] == elem) {
+                return true;
+           }
+    }
+	
+	return false;
+}
+
+```
+> NOTE: Here **arr** is a sorted array.
+
+> Can the same result be achieved using a different more efficient algorithm? Propose different solutions. ([**Binary Search**][1])
+
+### Task 13:
+
+Given *n* different whole numbers *a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> (1 <= a<sub>i</sub> <= 100, 000, 000>)* sorted in ascending order, find the number of pairs throughout those numbers whose sum is equal to *x*. Implement an algorithm with a complexity faster than **O(n<sup>2</sup>)** with regards to the number of elements.
+
+
+[1]: https://www.youtube.com/watch?v=JQhciTuD3E8

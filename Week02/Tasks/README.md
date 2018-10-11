@@ -78,5 +78,81 @@ for (i = 0; i < n; i++) {
 }
 ```
 
+### Task 6:
 
-[1]: https://www.quora.com/What-are-examples-of-palindromes
+What's the complexity of the following algorithm:
+
+```csharp
+bool IsFirstElementNull(IList<string> elements)
+{
+    return elements[0] == null;
+}
+```
+
+### Task 7:
+
+What's the complexity of the following algorithm:
+
+```csharp
+bool ContainsValue(IList<string> elements, string value)
+{
+    foreach (var element in elements)
+    {
+        if (element == value) return true;
+    }
+
+    return false;
+}
+
+```
+
+### Task 8:
+
+What's the complexity of the following algorithm:
+
+```csharp
+bool ContainsDuplicates(IList<string> elements)
+{
+    for (var outer = 0; outer < elements.Count; outer++)
+    {
+        for (var inner = 0; inner < elements.Count; inner++)
+        {
+            // Don't compare with self
+            if (outer == inner) continue;
+
+            if (elements[outer] == elements[inner]) return true;
+        }
+    }
+
+    return false;
+}
+
+```
+
+### Task 9:
+
+What's the complexity of the following algorithm:
+
+```csharp
+int Fibonacci(int number)
+{
+    if (number <= 1) return number;
+
+    return Fibonacci(number - 2) + Fibonacci(number - 1);
+}
+
+```
+
+### Task 10:
+
+What's the complexity of the following algorithm:
+
+```csharp
+int pairsWithSumXNaive() {
+    int ans = 0;
+    for (int i = 0; i < N; i++)
+        for (int c = i + 1; c < N; c++)
+            if (a[i] + a[c] == X) ans++;
+    return ans;
+}
+```

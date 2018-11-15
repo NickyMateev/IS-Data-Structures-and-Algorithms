@@ -10,8 +10,8 @@ struct Node {
 За дървото трябва да се реализират следните методи:
 ```
 Node* find(Node* current, int value)
-Node* insert(Node* current, int value) 
-Node* erase(Node* current, int value) 
+void insert(Node* current, int value) 
+void erase(Node* current, int value) 
 int  findMin(Node* current)
 int findMax(Node* current)
 void printElements(Node* current)
